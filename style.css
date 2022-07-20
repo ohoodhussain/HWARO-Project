@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgba(234, 221, 202, 1) ;
+}
+
+.logo-header {
+    max-width: 100px;
+    margin: 10px  ;
+}
+
+.header-nav-logo{
+    display: flex;
+    justify-content: space-between; /*This will push all the items to the right and lefit*/
+ }
+
+ li, a {
+    display: inline-block; /*make the item line next to each other*/
+     text-decoration: none;
+     list-style-type: none;/* removed the list doute*/
+     padding: 10px  ;
+     color: black;
+ }
+
+ .header-h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* this align h1 to center*/
+    margin-top: 20% ;
+     
+  } 
+
+  .header-p{
+    margin-bottom: 5%;
+    padding-top: 5px;
+
+  }
+
+  .main-h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+.cards {
+    margin-left:400px ;
+    margin-bottom: 40px;
+     width: 1040px;
+      display: grid;
+     column-gap: 20px;
+      grid-template-columns: 200px 200px 200px;
+     grid-template-rows: 300px 300px ;
+    
+     
+ 
+}
+  .Rib-Eye-220{
+    width: 200px;
+    padding: 20px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+ 
+
+   }
+
+  .HWARO-Galbi-700g{
+    width: 200px;
+    padding: 20px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+ 
+
+}
+
+  .Charcoal-Grill-Bulgogi-500g{
+    width: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;  
+    margin-bottom: 30px;
+    text-align: center;
+ 
+
+
+ }
+
+  .Chef-soup-of-the-Day{
+    width: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    text-align: center;
+
+ 
+   }
+
+  .Steamed-Beef-Brisket{
+    width: 200px;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px; 
+    text-align: center;
+
+ 
+  }
+    .Steamed-Beef-Brisket{
+        width: 200px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px; 
+    text-align: center;
+ 
+    }
+
+    .viewall { /*center the button by given the contaner the auto margin*/
+      margin: auto;
+      margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    background-color: #5c4033;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    }
+    .viewall a{
+         color: white;
+         
+     }
+     .aboutus{
+        height: 415px;
+        display: grid;
+        grid-template-columns: 75px 509px 856px;
+        grid-template-rows: 123px 155px 137px;
+        
+         background: #5c4033;
+         color: white;
+     }
+     .aboutus h2{
+          font-size: medium;
+        font-weight: 700;
+      }
+     .aboutush2p p{
+       width: 760px;
+         text-align: center;
+        grid-column-start: 3;
+     font-size:small;
+        font-weight: 400;
+      }
+     .aboutuspic img{
+        max-width: 509px;
+        max-height: 576px;
+          
+     }
+/*.header-nav{
+    display: flex;
+     list-style-type: none;
+    padding: 5px;
+ 
+  }
+*/
+
+  /*.header-nav li{
+    padding: 5px;
+    float: left;
+   }
+ */
